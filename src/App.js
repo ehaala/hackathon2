@@ -5,6 +5,8 @@ import FoodItems from './FoodItems';
 import Cart from './Cart';
 import Checkout from './Checkout';
 import OrderConfirmation from './OrderConfirmation';
+import SideNav from './SideNav';
+import grabgrub from './grabgrub.png';
 
 import {
   BrowserRouter as Router,
@@ -18,9 +20,9 @@ class App extends Component {
 
       <Router>
         <div>
-	        <nav >
-	        	<Link className="tab" to="/">Home</Link>{' '}
-	        	<Link className="tab" to="/Checkout">Checkout</Link>
+	        <nav >  
+            
+	        	<Link className="tab" to="/"><img className="logo" src={grabgrub} alt="logo" height="50px"/></Link>{' '}
 	        </nav>  
 	        <Route exact path="/" component={Homepage} />
 	        <Route path="/Checkout" component={Checkout} />
