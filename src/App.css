@@ -72,6 +72,7 @@ p {
 .cart {
   background: white;
   height: 800px;
+  text-align: center;
 }
 
 .items {
@@ -94,6 +95,7 @@ p {
   background: #B22222;
   color: white;
   padding: 10px;
+  margin: 10px;
 }
 
 .bill {
@@ -106,4 +108,13 @@ p {
 
 .cartIcon {
   margin-left: 15px;
+}
+
+.confirmation {
+  text-align: center;
+  margin-top: 100px;
+}
+
+input {
+  font-size: 18px;
 }

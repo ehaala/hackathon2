@@ -22,8 +22,8 @@ class Cart extends Component {
 				<hr />
 				<div className="bill">
 					<p>Subtotal ${this.state.price}</p>
-					<p>Tax ${Math.floor(this.state.price * .1)}</p>
-					<h4>TOTAL ${this.state.price + Math.floor(this.state.price * .1)}</h4>
+					<p>Tax ${Math.ceil(this.state.price * .1)}</p>
+					<h4>TOTAL ${this.state.price + Math.ceil(this.state.price * .1)}</h4>
 				</div>
 					<a href='/Checkout'>
 					<button type="button" className="checkout btn-secondary">CHECKOUT</button>

@@ -15,9 +15,10 @@ class Checkout extends Component {
 	render() {
 		return (
 			<Router>
-				<div className="cart content col-sm-8">
+			<div>
+				<div className="content col-sm-8">
 					<form>
-					<h1>Billing Information</h1>
+					<h3>Billing Information</h3>
 					<input 	type = "text"
 									placeholder ="Name on Card"
 					/>
@@ -43,7 +44,7 @@ class Checkout extends Component {
 									placeholder ="Zip Code"
 					/>
 					<br />
-					<h1>Credit Card Information</h1>
+					<h3>Credit Card Information</h3>
 					<input	type = "text"
 									placeholder ="Credit Card Number"
 					/>
@@ -58,8 +59,22 @@ class Checkout extends Component {
 					<br />
 					</form>
 					<a href='/OrderConfirmation'>
-					<input type="submit" value="buy that food, you drunk fool!" />
+					<button type="submit" className="checkout btn-secondary">Place Order</button>
+
 					</a>
+				</div>
+				<div className="cart col-sm-4">
+					<h3>Basket</h3>
+								<div className="cartItems col-sm-12">
+				<p>Loaded Potato Skins ($7.99)</p>
+				<hr />
+				<div className="bill">
+					<p>Subtotal $7.99</p>
+					<p>Tax $1</p>
+					<h4>TOTAL $8.99</h4>
+				</div>		
+			</div>
+				</div>
 				</div>
 			</Router>
 		);

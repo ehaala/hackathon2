@@ -26,6 +26,7 @@ class App extends Component {
 	        <Route path="/Checkout" component={Checkout} />
           <Route path="/OrderConfirmation" component={OrderConfirmation} />
         </div>
+        
       </Router>
      
     );

@@ -24,7 +24,14 @@ class Homepage extends Component {
 
 	handleMove(id) {
 		var temp = this.state.cart;
-		var item = this.state.foodItems[id];
+		// var item = this.state.foodItems[id];
+		var item = {
+			name: "Loaded Potato Skins",
+			img: "https://dam.tgifridays.com/content/dam/images/eat/1011.jpg",
+			price: 7.99,
+			info: "8 crispy potato halves, melted cheddar and bacon. Served with ranch sour cream and green onions."
+		};
+		console.log(item);
 		temp.push(item);
 		console.log(temp);
 		this.setState({cart: temp});
@@ -48,7 +55,7 @@ class Homepage extends Component {
   	let cart = this.state.cart.map((item, index) => (
   			<Cart item={item} key={index} id={index} />
   		))
-  	
+
     return (
     	<div className="App">
 	      <div className="left col-sm-8">
