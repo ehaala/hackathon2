@@ -1,79 +1,93 @@
 var appetizers = [{
         name: "Bucket of Bones",
         img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        price: 12.09
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
-    } {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Mozzarella Sticks",
+        img: ".public/img/mozzarellasticks.jpg",
+        price: 9.59
+    },
+
+    {
+        name: "Loaded Potato Skins",
+        img: ".public/img/loadedpotatoskins.jpg",
+        price: 7.99
     }
 ]
 
 var salads = [{
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Million Dollar Cobb",
+        img: ".public/img/milliondollarcobb.jpg",
+        price: 12.71
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
-    } {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Ceaser Salad",
+        img: ".public/img/ceasersalad.jpg",
+        price: 11.02
+    },
+
+    {
+        name: "BBQ Chicken Salad",
+        img: ".public/img/bbqchickensalad.jpg",
+        price: 13.56
     }
 ]
 
 var sandwiches = [{
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Mac & Cheese Burger",
+        img: ".public/img/macandcheeseburger.jpg",
+        price: 280.73
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
-    } {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "French Dip",
+        img: ".public/img/frenchdip.jpg",
+        price: 13.84
+    },
+
+    {
+        name: "Bacon Cheeseburger",
+        img: ".public/img/baconcheeseburger.jpg",
+        price: 14.91
     }
 ]
 var mains = [{
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Memphis Ribs",
+        img: ".public/img/memphisribs.jpg",
+        price: 21.58
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
-    } {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Fried Shrimp",
+        img: ".public/img/friedshrimp.jpg",
+        price: 20.01
+    },
+
+    {
+        name: "Grilled Salmon",
+        img: ".public/img/grilledsalmon.jpg",
+        price: 28.40
     }
 ]
 
 var dessert = [{
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Oreo Madness",
+        img: ".public/img/oreomadness.jpg",
+        price: 11.23
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Brownie Obsession",
+        img: ".public/img/brownieobsession.jpg",
+        price: 9.89
     },
+
     {
-        name: "Bucket of Bones",
-        img: ".public/img/bucketofbones.jpg",
-        price: 17.99
+        name: "Vanilla Bean Cheesecake",
+        img: ".public/img/vanillabeancheesecake.jpg",
+        price: 10.53
     }
 ]
