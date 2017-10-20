@@ -26,3 +26,20 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+body {
+  font-size: 18px;
+  background: lightblue;
+}
+
+nav {
+  background: black;
+  height: 50px;
+  width: 100%;
+  vertical-align: top;
+}
+
+.tab {
+  padding: 20px;
+  color: white;
+}
