@@ -48,7 +48,7 @@ class Homepage extends Component {
   	let cart = this.state.cart.map((item, index) => (
   			<Cart item={item} key={index} id={index} />
   		))
-
+  	
     return (
     	<div className="App">
 	      <div className="left col-sm-8">
