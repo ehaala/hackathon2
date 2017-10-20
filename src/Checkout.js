@@ -50,7 +50,7 @@ class Checkout extends Component {
 					/>
 					<br />
 					<input	type = "text"
-									placeholder ="Experation Date"
+									placeholder ="Expiration Date"
 					/>
 					<br />
 					<input	type = "text"
