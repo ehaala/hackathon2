@@ -3,3 +3,14 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.content {
+	border: 1px solid black;
+	height: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.items {
+
+}
