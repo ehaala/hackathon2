@@ -45,12 +45,14 @@ nav {
   height: 50px;
   width: 100%;
   vertical-align: top;
+  text-align: center;
 }
 
 .tab {
   font-size: 18px;
-  padding: 20px;
+  padding: 5px;
   color: white;
+  display: inline-block;
 }
 
 p {
@@ -76,7 +78,7 @@ p {
 }
 
 .items {
-  margin-top: 50px;
+  margin-top: 30px;
   height: 600px;
   text-align: center;
 }
@@ -117,4 +119,19 @@ p {
 
 input {
   font-size: 18px;
+  margin: 5px;
+}
+
+.filter {
+  margin-top: 10px;
+  width: 100px;
+  display: inline-block;  
+}
+
+select {
+  font-size: 16px;
+}
+
+.conPic {
+  margin-top: 50px;
 }

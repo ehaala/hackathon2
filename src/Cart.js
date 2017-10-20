@@ -22,7 +22,7 @@ class Cart extends Component {
 				<hr />
 				<div className="bill">
 					<p>Subtotal ${this.state.price}</p>
-					<p>Tax ${Math.ceil(this.state.price * .1)}</p>
+					<p>Tax ${Math.ceil(this.state.price * .1)}.00</p>
 					<h4>TOTAL ${this.state.price + Math.ceil(this.state.price * .1)}</h4>
 				</div>
 					<a href='/Checkout'>

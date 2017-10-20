@@ -45,6 +45,14 @@ class FoodItems extends Component {
 
 	render() {
 		return (
+			<div>
+			<div className="filter">
+				<select>
+	            <option value="">Appetizers</option>
+	            <option value="">Main</option>
+	            <option value="">Desserts</option>
+	            </select>
+			</div>
 			<div className="items content col-sm-12">
 				<img src={this.state.img} height="400px" onClick={this.swipe}/>
 				<h3>{this.state.name} <span className="price">${this.state.price}</span> 
@@ -52,6 +60,7 @@ class FoodItems extends Component {
 				<img className="cartIcon" src="https://image.flaticon.com/icons/png/512/2/2772.png" onClick={this.clickMove} data-id={this.state.key} height="28px" />
 				</h3>
 				<p className="info">{this.state.info}</p>
+			</div>
 			</div>
 		)
 	}
