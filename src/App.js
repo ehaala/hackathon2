@@ -21,7 +21,6 @@ class App extends Component {
 	        <nav >
 	        	<Link className="tab" to="/">Home</Link>{' '}
 	        	<Link className="tab" to="/Checkout">Checkout</Link>
-            <Link className="tab" to="/OrderConfirmation">Order Confirmation</Link>
 	        </nav>  
 	        <Route exact path="/" component={Homepage} />
 	        <Route path="/Checkout" component={Checkout} />

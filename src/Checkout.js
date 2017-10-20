@@ -15,7 +15,7 @@ class Checkout extends Component {
 	render() {
 		return (
 			<Router>
-				<div className="cart content col-sm-6">
+				<div className="cart content col-sm-8">
 					<form>
 					<h1>Billing Information</h1>
 					<input 	type = "text"
