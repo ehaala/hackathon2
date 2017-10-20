@@ -4,6 +4,7 @@ import Homepage from './Homepage';
 import FoodItems from './FoodItems';
 import Cart from './Cart';
 import Checkout from './Checkout';
+import OrderConfirmation from './OrderConfirmation';
 
 import {
   BrowserRouter as Router,
@@ -20,15 +21,16 @@ class App extends Component {
 	        <nav >
 	        	<Link className="tab" to="/">Home</Link>{' '}
 	        	<Link className="tab" to="/Checkout">Checkout</Link>
+            <Link className="tab" to="/OrderConfirmation">Order Confirmation</Link>
 	        </nav>  
 	        <Route exact path="/" component={Homepage} />
 	        <Route path="/Checkout" component={Checkout} />
+          <Route path="/OrderConfirmation" component={OrderConfirmation} />
         </div>
       </Router>
      
-    )
+    );
   }
 }
-
 
 export default App;
