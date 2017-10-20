@@ -6,8 +6,9 @@ class OrderConfirmation extends Component {
   
   render(){
     return(
-      <div>
-        Your food will be available for pickup in 19 minutes.
+      <div className="confirmation">
+      <h3>Thank you for your order!</h3>
+      <p>Your food will be available for pickup in 19 minutes.</p>
       </div>
     );
   }
