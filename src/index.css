@@ -5,12 +5,17 @@ body {
 }
 
 .content {
-	border: 1px solid black;
-	height: 200px;
+	height: 400px;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.items {
+.cartItems {
+	height: 50px;
+	background: white;
+}
 
+.cart {
+	background: white;
+	height: 800px;
 }
