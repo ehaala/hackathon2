@@ -70,7 +70,7 @@ class Checkout extends Component {
 				<hr />
 				<div className="bill">
 					<p>Subtotal $7.99</p>
-					<p>Tax $1</p>
+					<p>Tax $1.00</p>
 					<h4>TOTAL $8.99</h4>
 				</div>		
 			</div>
