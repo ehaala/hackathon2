@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './index.css';
 import FoodItems from './FoodItems';
 import Cart from './Cart';
 import Checkout from './Checkout';
@@ -11,7 +12,8 @@ class Homepage extends Component {
 			foodItems: [{
         name: "Bucket of Bones",
         img: "https://dam.tgifridays.com/content/dam/images/eat/1152.jpg",
-        price: 12.09
+        price: 12.09,
+        info: "Bucket to share of big back pork ribs basetd with Jack Daniel's® Glaze, traditional wings tossed in barbecue sauce and seasoned fries."
     }
 		],
 			cart: []
@@ -30,7 +32,13 @@ class Homepage extends Component {
 		// temp2.splice(id, 1);
 		// console.log(temp2)
 		// this.setState({foodItems: temp2})
-
+		var temp2 = [{
+			name: "Loaded Potato Skins",
+			img: "https://dam.tgifridays.com/content/dam/images/eat/1011.jpg",
+			price: 7.99,
+			info: "8 crispy potato halves, melted cheddar and bacon. Served with ranch sour cream and green onions."
+		}];
+		this.setState({foodItems: temp2});
 	}
 
   render() {
@@ -43,7 +51,7 @@ class Homepage extends Component {
 
     return (
     	<div className="App">
-	      <div className="col-sm-8">
+	      <div className="left col-sm-8">
 	      	{items}
 	      </div>
 	      <div className="cart col-sm-4">
