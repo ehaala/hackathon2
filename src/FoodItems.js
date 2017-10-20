@@ -10,6 +10,7 @@ class FoodItems extends Component {
 			name: props.item.name,
 			img: props.item.img,
 			price: props.item.price,
+			info: props.item.info,
 			key: props.id
 		}
 
@@ -26,9 +27,11 @@ class FoodItems extends Component {
 		return (
 			<div className="items content col-sm-12">
 				<img src={this.state.img} height="400px"/>
-				<h3>{this.state.name} (${this.state.price}) 
-				<button type="button" className="" onClick={this.clickMove} data-id={this.state.key}></button>
+				<h3>{this.state.name} <span className="price">${this.state.price}</span> 
+				<img className="icon" src="http://www.pngall.com/wp-content/uploads/2016/04/Red-Cross-Mark-Download-PNG.png" height="28px" />
+				<img className="cartIcon" src="https://image.flaticon.com/icons/png/512/2/2772.png" onClick={this.clickMove} data-id={this.state.key} height="28px" />
 				</h3>
+				<p className="info">{this.state.info}</p>
 			</div>
 		)
 	}

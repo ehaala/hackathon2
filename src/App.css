@@ -29,18 +29,80 @@
 
 body {
   font-size: 18px;
-  background: lightblue;
+  background: lightgray;
   font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 nav {
-  background: black;
+  background: #B22222;
   height: 50px;
   width: 100%;
   vertical-align: top;
 }
 
 .tab {
+  font-size: 18px;
   padding: 20px;
   color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+.content {
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cartItems {
+  height: 50px;
+  background: white;
+  margin-top: 50px;
+}
+
+.cart {
+  background: white;
+  height: 800px;
+}
+
+.items {
+  margin-top: 50px;
+  height: 600px;
+  text-align: center;
+}
+
+.icon {
+  margin-left: 40px;
+}
+
+.info {
+  width: 400px;
+  display: inline-block;
+}
+
+.checkout {
+  font-size: 20px;
+  background: #B22222;
+  color: white;
+}
+
+.bill {
+  text-align: right;
+}
+
+.price {
+  margin: 0 20px;
+}
+
+.cartIcon {
+  margin-left: 15px;
 }
