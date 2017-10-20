@@ -1,0 +1,79 @@
+var appetizers = [{
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    } {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    }
+]
+
+var salads = [{
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    } {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    }
+]
+
+var sandwiches = [{
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    } {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    }
+]
+var mains = [{
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    } {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    }
+]
+
+var dessert = [{
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    },
+    {
+        name: "Bucket of Bones",
+        img: ".public/img/bucketofbones.jpg",
+        price: 17.99
+    }
+]
